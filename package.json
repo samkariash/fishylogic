@@ -1,6 +1,6 @@
 {
-  "name": "samkariaproj",
-  "version": "0.0.0",
+  "name": "startbootstrap-heroic-features",
+  "version": "4.1.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,9 +20,13 @@
     "@angular/platform-browser": "~7.0.0",
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
+    "angularfire2": "^5.1.0",
     "core-js": "^2.5.4",
+    "firebase": "^5.5.6",
     "rxjs": "~6.3.3",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "bootstrap": "4.1.1",
+    "jquery": "3.3.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.10.0",
@@ -43,6 +47,32 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.1"
+    "typescript": "~3.1.1",
+    "browser-sync": "2.24.5",
+    "gulp": "^3.9.1"
+  },
+  "title": "Heroic Features",
+  "description": "An HTML template with a hero heading and feature cards built with Bootstrap",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://startbootstrap.com/template-overviews/heroic-features",
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-heroic-features/issues",
+    "email": "feedback@startbootstrap.com"
+  },
+  "license": "MIT",
+  "author": "Start Bootstrap",
+  "contributors": [
+    "David Miller (http://davidmiller.io/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlackrockDigital/startbootstrap-heroic-features.git"
   }
 }
