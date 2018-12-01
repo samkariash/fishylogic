@@ -17,13 +17,15 @@ import {CustomerService} from './shared/customer.service';
 import {environment} from '../environments/environment';
 
 import { HomeComponent } from './home/home.component';
+import { GitComponent } from './git/git.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerComponent,
     CustomerListComponent,
-    HomeComponent
+    HomeComponent,
+    GitComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,7 @@ import { HomeComponent } from './home/home.component';
     AngularFireDatabaseModule
   ],
   providers: [CustomerService],
- // bootstrap: [AppComponent]
- bootstrap:[HomeComponent]
+ bootstrap: [AppComponent]
+ //bootstrap:[HomeComponent]
 })
 export class AppModule { }
