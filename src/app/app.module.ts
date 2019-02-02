@@ -18,6 +18,12 @@ import {environment} from '../environments/environment';
 
 import { HomeComponent } from './home/home.component';
 import { GitComponent } from './git/git.component';
+import { RegistrationComponent } from './registration/registration/registration.component';
+import { AboutmeComponent } from './about/aboutme/aboutme.component';
+import { TestersjavaComponent } from './java-for-testers/testersjava/testersjava.component';
+import { ServicesComponent } from './services/services.component';
+import { ContactComponent } from './contact/contact/contact.component';
+import { BackupComponent } from './backup/backup.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +31,13 @@ import { GitComponent } from './git/git.component';
     CustomerComponent,
     CustomerListComponent,
     HomeComponent,
-    GitComponent
+    GitComponent,
+    RegistrationComponent,
+    AboutmeComponent,
+    TestersjavaComponent,
+    ServicesComponent,
+    ContactComponent,
+    BackupComponent
   ],
   imports: [
     BrowserModule,

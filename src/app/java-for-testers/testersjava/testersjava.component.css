@@ -1,0 +1,40 @@
+/*
+STAR- all the elements on page
+*/
+*{
+    border: 2px yellow solid;
+}
+
+/*
+DESCENDENT -  
+for nested elements
+2 or more selectors and they are chained together
+eg- in our case 
+every anchor tag inside an li and you can go on and on
+ul li a 
+li a 
+both are same in our case
+*/
+
+ul li a{
+    color: red
+}
+
+/*ADJACENT SELECTOR
+The elemnts that come after another element on the same level
+allows us to select siblings
+*/
+h4 + ul{
+    border: 2px solid green;
+}
+
+/*ATTRIBUTE SELECTOR*/
+
+a[href="https://www.google.com"]{
+    background: chartreuse;
+}
+
+/*nth of type*/
+ul:nth-of-type(3){
+    background: hotpink;
+}
